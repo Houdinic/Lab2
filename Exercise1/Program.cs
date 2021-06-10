@@ -6,7 +6,11 @@ namespace Exercise1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rectangle r = new Rectangle();
+            r.GetData();
+            Console.WriteLine(r.GetArea());
+            Console.WriteLine(r.GetPerimeter());
+            Console.ReadLine();
         }
     }
 }

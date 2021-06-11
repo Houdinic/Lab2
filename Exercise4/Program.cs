@@ -6,7 +6,7 @@ namespace Exercise4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Print.SprialPrint(Matrix.GetMatrix());
         }
     }
 }

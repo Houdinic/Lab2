@@ -21,7 +21,6 @@ namespace Exercise4
                 {
                     matrix[i, j] = row[j];
                 }
-                
             }
             return matrix;
         }

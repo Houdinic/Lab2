@@ -61,6 +61,20 @@ namespace Exercise4
 
 
         }
+        public static void NormalPrint(string[,] matrix)
+        {
+            int rows = matrix.GetLength(0);
+            int cols = matrix.GetLength(1);
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    Console.Write("\t{0}", matrix[i, j]);
+                }
+                Console.WriteLine();
+            }
+
+        }
 
     }
 }

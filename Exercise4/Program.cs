@@ -6,7 +6,11 @@ namespace Exercise4
     {
         static void Main(string[] args)
         {
-            Print.SprialPrint(Matrix.GetMatrix());
+            string[,] matrix = Matrix.GetMatrix();
+            
+            Print.NormalPrint(matrix);
+
+            Print.SprialPrint(matrix);
         }
     }
 }
